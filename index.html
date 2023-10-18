@@ -2,69 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
-  <link rel="shortcut icon" type="x-icon" href="logoo.jpg">
-    <style>
-    body{
-         background-image:url(mmnn.gif);
-         background-repeat: no-repeat;
-         background-attachment: fixed;
-         background-size: 100%;
-     }
-     .centerdiv{
-    height: 100vh;
-    display: flex;
-    justify-content: top;
-    align-items: top;
-}
-.centerdiv a i
-{
-    position: absolute;
-    top: 10%;
-    transform: translate(-50%, -50%);
-}
+    <title>LOGIN PASSWORD VALIDATION</title>
 
-a{
-    height: 100px;
-    width: 100px;
-    background-color: #f5f6fa;
-    border-radius: 50px;
-    text-align: center;
-    margin: 10px;
-    line-height: 110px;
-    box-shadow: 1px 4px 2px 2px #dcdde1;
+    <link rel="stylesheet" href="style.css">
+    <script src="valid.js"></script>
 
-}
-a i {
-    transition: all 0.3s;
-}
-a:hover i{
-    font-size: 50px;
-}
- </style>
 </head>
 <body>
-    <div class="centerdiv">
-        <a href="calculator.html" target="_blank">
-    <i class="fa-solid fa-calculator"></i>
-</a>
-        <a href="stop.html" target="_blank">
-            <i class="fa-solid fa-hourglass"></i>
-        </a>
-            <a href="quiz.html" target="_blank">
-                <i class="fa-solid fa-brain"></i>
-            </a>
-            <a href="https://www.youtube.com/" target="_blank">
-                <i class="fa-brands fa-youtube"></i>
-            </a>
-            <a href="https://www.google.co.in/" target="_blank">
-                <i class="fa-brands fa-google"></i>
-            </a>
-<a href="https://play.google.com" target="_blank">
-    <i class="fa-brands fa-google-play"></i>
-</a>
+    <div class="form">
+        <h1>LOGIN HERE</h1>
+        <p>Username :</p>
+        <input type="text" name="" placeholder="Name Here">
+        <p>Password :</p>
+        <input type="password" name="" placeholder="Password Here" id="pass">
+        <input type="checkbox" onclick="myfunction()">
+        <input type="submit" name="" value="LOGIN" onclick="validate()">
     </div>
-</div>
+
+    <div>
+        <p id="length"></p>
+    </div>
+
+
+    <input type="submit" name="" value="LOGIN" onclick="lpage()">
+   
 </body>
 </html>
+
+
+
+
+
