@@ -4,26 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="note.css">
-    <title>My Notes</title>
+    <title>Notepad</title>
 </head>
 <body>
-    <div class="notes-app">
-        <div class="notes-sidebar">
-            <h1>My Notes</h1>
-            <ul id="notes-list">
-                <!-- Existing notes will be displayed here using JavaScript -->
-            </ul>
-        </div>
-        <div class="notes-content">
-            <textarea id="note-input" placeholder="Type your note..."></textarea>
-            <div class="notes-actions">
-                <button id="add-note">Add Note</button>
-                <button id="edit-note">Edit Note</button>
-                <button id="delete-note">Delete Note</button>
-            </div>
-        </div>
+    <div class="notepad-container">
+        <h1>Notepad</h1>
+        <textarea id="note-input" placeholder="Type your note..."></textarea>
+        <button id="save-button">Save</button>
     </div>
     <script src="note.js"></script>
 </body>
 </html>
-
