@@ -42,10 +42,22 @@ a i {
 a:hover i{
     font-size: 50px;
 }
+#animatedElement {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    position: absolute;
+    transition: transform 1s ease-in-out;
+}
+
+.animated {
+    transform: translateX(200px);
+}
+
 </style>
 </head>
 <body>
-    <div class="centerdiv">
+   <div class="centerdiv">
         <a href="ts.html" target="_blank">
             <i class="fa-solid fa-earth-americas"></i>
         </a>
@@ -58,13 +70,35 @@ a:hover i{
         <a href="gpt.html" target="_blank">
             <i class="fa-solid fa-comments"></i>
         </a>
-          <a href="type.html" target="_blank">
+        <a href="type.html" target="_blank">
             <i class="fa-solid fa-gauge"></i>
         </a>
         <a href="bud.html" target="_blank">
         <i class="fa-solid fa-money-check-dollar"></i>
         </a>
     </div>
+<style>
+    .move-button {
+        position: absolute;
+        top: 400px; /* Change the top value to move the button vertically */
+        left: 130px; /* Change the left value to move the button horizontally */
+        width: 110px;
+        height: 100px;
+        font-size: 30px;
+        color: #04ff15;
+        background-color: rgb(10, 19, 21);
+        border-radius: 50px;
+        border-color: #3498db;
+    }
+</style>
+<div class="secondd">
+<a href="third.html">
+<button class="move-button">NEXT</button>
+</a>
+    </div>
+</div>
+<!DOCTYPE html>
+<html>
 <head>
 </body>
 </html>
